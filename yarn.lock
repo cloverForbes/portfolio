@@ -14,12 +14,29 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
+"@jcubic/lily@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@jcubic/lily/-/lily-0.3.0.tgz#00b229aab69fe094a57fd37f27d32dd4f380c1d1"
+  integrity sha512-4z6p4jLGSthc8gQ7wu4nHfGYn/IgCKFr+7hjuf80VdXUs7sm029mZGGDpS8sb29PVZWUBvMMTBCVGFhH2nN4Vw==
+
 "@material-ui/icons@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.1.0.tgz#583f09918f0217948485a548c18e3088ede3a352"
   integrity sha512-EwlS/D3O1lBEFBBOwBJgcV3c9zkLYy6GpJzBFL4i8rpkwfpWAE2dvz2TGsHfftfR60tiiLpZJhngBL7NJYnRng==
   dependencies:
     "@babel/runtime" "^7.2.0"
+
+"@types/jquery@^3.5.10":
+  version "3.5.11"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.11.tgz#fb2a255e8376779e89a10ddd04bfc1a93398f861"
+  integrity sha512-lYZGdfOtUa0XFjIATQgiogqeTY5PNNMOmp3Jq48ghmJALL8t/IqABRqlEwdHfuUdA8iIE1uGD1HoI4a7Tiy6OA==
+  dependencies:
+    "@types/sizzle" "*"
+
+"@types/sizzle@*":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
+  integrity sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==
 
 abab@^1.0.3:
   version "1.0.3"
@@ -162,6 +179,11 @@ ansi-styles@^3.0.0, ansi-styles@^3.1.0:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
   dependencies:
     color-convert "^1.9.0"
+
+ansidec@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/ansidec/-/ansidec-0.3.4.tgz#e12d267d6b1f122d2da5b98fe0de1f98d14ac62b"
+  integrity sha512-Ydgbey4zqUmmNN2i2OVeVHXig3PxHRbok2X6B2Sogmb92JzZUFfTL806dT7os6tBL1peXItfeFt76CP3zsoXUg==
 
 anymatch@^1.3.0:
   version "1.3.2"
@@ -1858,6 +1880,13 @@ default-require-extensions@^1.0.0:
   dependencies:
     strip-bom "^2.0.0"
 
+defaults@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/defaults/-/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
+  integrity sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=
+  dependencies:
+    clone "^1.0.2"
+
 define-properties@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
@@ -2751,6 +2780,11 @@ fsevents@1.1.2, fsevents@^1.0.0:
     nan "^2.3.0"
     node-pre-gyp "^0.6.36"
 
+fsevents@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+
 fstream-ignore@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/fstream-ignore/-/fstream-ignore-1.0.5.tgz#9c31dae34767018fe1d249b24dada67d092da105"
@@ -3164,6 +3198,13 @@ iconv-lite@0.4.13:
 iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
+
+iconv-lite@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
 
 icss-replace-symbols@^1.1.0:
   version "1.1.0"
@@ -3791,15 +3832,25 @@ jest@20.0.4:
   dependencies:
     jest-cli "^20.0.4"
 
-jquery.terminal@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/jquery.terminal/-/jquery.terminal-1.8.0.tgz#2afbd88636cc33e469cade3700264d88b53e3683"
+jquery.terminal@^2.31.1:
+  version "2.31.1"
+  resolved "https://registry.yarnpkg.com/jquery.terminal/-/jquery.terminal-2.31.1.tgz#b87cc238e539cb7eca38c31278ad33721de5456c"
+  integrity sha512-JVCL3mOmE+NQ1SvwHyRtJ18ICEylHoLqh0mmi0HResjeE7v/85rREfoLDtYfJxDxCNpTrznGl3HEoUCfjHnycA==
   dependencies:
-    jquery "~3"
+    "@jcubic/lily" "^0.3.0"
+    "@types/jquery" "^3.5.10"
+    ansidec "^0.3.4"
+    iconv-lite "^0.6.3"
+    jquery "^3.6.0"
+    prismjs "^1.25.0"
+    wcwidth "^1.0.1"
+  optionalDependencies:
+    fsevents "^2.3.2"
 
-jquery@^3.2.1, jquery@~3:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+jquery@^3.2.1, jquery@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-base64@^2.1.9:
   version "2.3.2"
@@ -5090,6 +5141,11 @@ pretty-format@^20.0.3:
     ansi-regex "^2.1.1"
     ansi-styles "^3.0.0"
 
+prismjs@^1.25.0:
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.26.0.tgz#16881b594828bb6b45296083a8cbab46b0accd47"
+  integrity sha512-HUoH9C5Z3jKkl3UunCyiD5jwk0+Hz0fIgQ2nbwU2Oo/ceuTAQAg+pPVnfdt2TJWRVLcxKh9iuoYDUSc8clb5UQ==
+
 private@^0.1.6, private@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
@@ -5732,6 +5788,11 @@ rx-lite@*, rx-lite@^4.0.8:
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
+
+"safer-buffer@>= 2.1.2 < 3.0.0":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 sane@~1.6.0:
   version "1.6.0"
@@ -6568,6 +6629,13 @@ wbuf@^1.1.0, wbuf@^1.7.2:
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.2.tgz#d697b99f1f59512df2751be42769c1580b5801fe"
   dependencies:
     minimalistic-assert "^1.0.0"
+
+wcwidth@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/wcwidth/-/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
+  integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
+  dependencies:
+    defaults "^1.0.3"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
